@@ -1,5 +1,5 @@
 # Bookmarklets
-Bookmarklets are Like macros you store as bookmarks.
+Bookmarklets are like macros you store as bookmarks.
 
 ## Favicon finder
 Return the favicon of the current page's domain using Google's favicon API.
