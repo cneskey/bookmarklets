@@ -24,3 +24,9 @@ Opens the current Github ipynb page in Google Colab.
 ``` javascript
 javascript:(function(){var url=window.location.href;if(url.includes('github.com')&&url.endsWith('.ipynb')){var colabUrl='https://colab.research.google.com/github/'+url.split('github.com/')[1];window.open(colabUrl,'_blank');}else{alert('Not a valid GitHub notebook URL.');}})();
 ```
+
+## Archive.is search
+Searches archive.is for snapshots of the current page.
+``` javascript
+javascript:location.href='https://archive.is/'+document.location.href;
+```
